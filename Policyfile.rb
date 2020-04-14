@@ -14,3 +14,5 @@ run_list 'slave_node::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'slave_node', path: '.'
+
+cookbook 'java', '~> 8.0.1', :supermarket

@@ -20,3 +20,4 @@ chef_version '>= 14.0'
 # source_url 'https://github.com/<insert_org_here>/slave_node'
 
 depends 'poise-python'
+depends 'java'
