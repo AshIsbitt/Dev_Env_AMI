@@ -37,7 +37,7 @@
   "provisioners": [
     {
       "type": "chef-solo",
-      "cookbook_paths": ["./berks-cookbooks"],
+      "cookbook_paths": ["./cookbook"],
       "run_list": ["slave_node::default"]
     }
   ]
